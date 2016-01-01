@@ -58,14 +58,7 @@ class SocialLoginController extends Controller
             'avatar' => $user->avatar
         ]);
         $socailProvider->save();
-
-//        $newUser->name = isset($user->name) ? $user->name : $user->nickname;
-//        $newUser->email = $user->email;
-//        $newUser->application_id = $user->id;
-//        $newUser->avatar = $user->avatar;
-//        $newUser->token = $user->token;
-//        $newUser->app_type = $provider;
-//        $newUser->save();
+        
         return $newUser;
 
     }
