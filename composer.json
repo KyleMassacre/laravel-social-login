@@ -1,0 +1,22 @@
+{
+    "name": "kylemass/sociallogin",
+    "description": "Simple plugin to allow for login and registration from various social platforms",
+    "require": {
+        "Laravel/Socialite": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kyle Ellis",
+            "email": "ky.elis83@gmail.com"
+        }
+    ],
+    "type":    "library",
+    "minimum-stability": "dev",
+    "autoload": {
+      "psr-4": {
+        "KyleMass\\SocialLogin\\": "src",
+        "KyleMass\\SocialLogin\\Models\\": "src/models"
+      }
+    }
+}
