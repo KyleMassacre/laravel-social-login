@@ -51,14 +51,14 @@ class SocialLoginController extends Controller
             'email' => $user->email,
         ]);
         $newUser->save();
-        $socailProvider = new SocialProviders([
+        $socialProvider = new SocialProviders([
             'user_id' => $newUser->id,
             'provider' => $provider,
             'providerId' => $user->id,
             'avatar' => $user->avatar
         ]);
-        $socailProvider->save();
-        
+        $socialProvider->save();
+
         return $newUser;
 
     }

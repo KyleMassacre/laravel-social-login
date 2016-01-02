@@ -1,6 +1,8 @@
 {
     "name": "kylemass/sociallogin",
     "description": "Simple plugin to allow for login and registration from various social platforms",
+    "keywords":    ["kylemass", "social login", "laravel", "identicon", "socialite"],
+    "homepage":    "https://github.com/KyleMassacre/laravel-social-login",
     "require": {
         "Laravel/Socialite": "^2.0"
     },
@@ -8,7 +10,9 @@
     "authors": [
         {
             "name": "Kyle Ellis",
-            "email": "ky.elis83@gmail.com"
+            "email": "ky.elis83@gmail.com",
+            "homepage": "https://github.com/KyleMassacre",
+            "role":     "Developer"
         }
     ],
     "type":    "library",
