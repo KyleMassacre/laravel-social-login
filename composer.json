@@ -22,5 +22,8 @@
         "KyleMass\\SocialLogin\\": "src",
         "KyleMass\\SocialLogin\\Models\\": "src/models"
       }
+    },
+    "extra": {
+        "image": "https://laravel.com/assets/img/laravel-logo.png"
     }
 }
