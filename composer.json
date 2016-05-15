@@ -24,8 +24,10 @@
       }
     },
     "extra": {
-        "slack-image": {
-            "thumb": "https://laravel.com/assets/img/laravel-logo.png"
-        }
+        "slack-image": [
+            {
+                "thumb": "https://laravel.com/assets/img/laravel-logo.png"
+            }
+        ]
     }
 }
